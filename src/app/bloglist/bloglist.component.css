@@ -1,0 +1,78 @@
+.card {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.25);
+    padding: 10px 10px 10px 10px;
+}
+
+.bloglist-wrapper {
+    margin-top: 50px;
+}
+
+.create-article-btn {
+    margin-left:375px;
+    cursor: pointer;
+    background-color:green;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    margin-right: 20px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.title-div {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description-div {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.buttons-div {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.read-more-btn {
+    cursor: pointer;
+    background-color: #0081CC;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    margin-right: 20px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.edit-btn {
+    cursor: pointer;
+    background-color: rgb(155, 156, 63);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    margin-right: 20px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.delete-btn {
+    cursor: pointer;
+    background-color:red;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    margin-right: 20px;
+    font-weight: bold;
+    border: 0px;
+}

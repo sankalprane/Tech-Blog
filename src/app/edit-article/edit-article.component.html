@@ -1,0 +1,23 @@
+<div class="bloglist-wrapper">
+    <div class="card">
+        <form [formGroup]="editArticleForm" (ngSubmit)="onSubmit()">
+            <div>
+                <div class="tags">Title</div>
+                <textarea name="title" rows="3" cols="77" formControlName="title"></textarea>
+            </div>
+            <div>
+                <div class="tags">Description</div>
+                <textarea name="description" rows="4" cols="77" formControlName="description"></textarea>
+            </div>
+            <div>
+                <div class="tags">Content</div>
+                <textarea name="content" rows="10" cols="77" formControlName="content"></textarea>
+            </div>
+            <div class="buttons-div">
+                <button type="submit" class="update-btn">Update</button>
+                <button type="button" class="cancel-btn" routerLink="/blog">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <!-- {{ singleArticle.content }} -->
+</div>

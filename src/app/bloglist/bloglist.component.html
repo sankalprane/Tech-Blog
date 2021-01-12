@@ -1,0 +1,12 @@
+<div class="bloglist-wrapper">
+    <button type="button" class="create-article-btn" routerLink="/create-article">Create New Article</button>
+    <div *ngFor="let article of articleList" class="card">
+        <div class="title-div">{{ article.title }}</div>
+        <div class="description-div">{{ article.description }}</div>
+        <div class="buttons-div">
+            <button type="button" class="read-more-btn" [routerLink]="['/read-article', article.id]">Read More</button>
+            <button type="button" class="edit-btn" [routerLink]="['/edit-article', article.id]">Edit</button>
+            <button type="button" class="delete-btn" (click)="deleteArticle(article.id)">Delete</button>
+        </div>
+    </div>
+</div>
